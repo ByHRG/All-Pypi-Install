@@ -46,7 +46,6 @@ def install_all_pypi_packages():
             )
         except subprocess.CalledProcessError:
             print(f"  → install failed: {name}")
-        break
 
 if __name__ == "__main__":
     install_all_pypi_packages()
